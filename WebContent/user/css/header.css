@@ -1,0 +1,82 @@
+header{
+         width: 1140px;
+         height:47px;
+         margin: auto;
+      }
+      nav{
+         float: left;
+         width: 740px;
+      }
+      nav ul{
+         display: block;
+         list-style: none;
+         padding: 0px;
+         margin: 0px;
+         
+      }
+      nav ul li{
+         float: left;
+      }
+      nav ul li a{
+         display: block;
+         padding: 12px 60px;
+         background-color: #ddd;
+         
+      }
+      nav ul li a:hover{
+         background-color: #fff;
+      }
+      a{
+         text-decoration: none;
+         color: #333;
+      }
+      
+      .logo{
+         float: left;
+         width: 200px;
+         font-size: 30pt;
+         font-weight: bold;
+
+      }
+      .topSearch{
+         width:200px;
+         float: left;
+      }
+      .topInfo{
+         padding: 12px;
+         float: left;
+         
+      }
+      .topSerch_img{
+         width: 30px;
+         height: 30px;
+         margin-left:30px;
+         margin-top: 5px;
+         float:left;
+         cursor: pointer;
+      }
+      .topLogin{
+         margin-right: 10px;
+      }
+      .topCart{
+         margin-left: 10px;
+      }
+      .topSerch_box{
+         display: none;
+         position: absolute;
+         border: 1px solid #333;
+         top:60px;
+         padding: 5px;
+      }
+      .topSearch_l{
+         float: left;
+      }
+      .topSearch_r{
+         float: left;
+         margin-left: 5px;
+
+      }
+      .topSearch_b{
+         padding: 5px;
+         clear: left;
+      }

@@ -3,13 +3,13 @@
 <meta charset="utf-8">
 <head>
 	<title></title>
-<link rel="stylesheet" type="text/css" href="css/forgot1.css">
+<link rel="stylesheet" type="text/css" href="../css/forget.css">
 </head>
 <body>
 	<div class="grad">
 	<div class="container">
 	<header>
-		<img src="images/logo.png">
+		<img src="../images/logo.png">
 	</header>
 	<section class="txt">
 		<h6>
@@ -21,11 +21,13 @@
 		</p>
 	</section>
 	<section class="input">
-		<input type="text" name="E-mail" placeholder="E-mail">
-		<input type="submit" name="submit" value="비밀번호를 보내주세요!">
+		<form action="forget.jsp" method="post">
+			<input type="text" name="E-mail" placeholder="E-mail">
+			<input type="submit" name="submit" value="비밀번호를 보내주세요!">
+		</form>
 	</section>
 	<section class="login_pg">
-		<p>Already have an account?&nbsp;<a href="#">Log in</a></p>
+		<p>Already have an account?&nbsp;<a href="login.html">Log in</a></p>
 	</section>
 	</div>
 	</div>
